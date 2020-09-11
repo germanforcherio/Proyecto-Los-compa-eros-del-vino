@@ -1,0 +1,435 @@
+.titulo {
+  background-color: #af162b;
+  /*#101010*/
+  color: #e6e1e1;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  margin-top: 0px;
+  padding: 25px;
+  width: 100%;
+}
+
+.parrafo {
+  color: #e6e1e1;
+  width: 400px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 20px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.navegacion {
+  display: inline-block;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.menu {
+  font-family: 'Anton', sans-serif;
+  list-style: none;
+  background-color: #861b2a;
+  /*#202020*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  color: #e6e1e1;
+  text-decoration: none;
+  text-align: center;
+  /*margin: 0px;*/
+  display: block;
+  padding: 5px 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu ul li a:hover {
+  background-color: #af162b;
+  border: solid 3px #af162b;
+}
+
+.icono ul li a {
+  text-decoration: none;
+  padding: 5px 50px;
+  display: block;
+}
+
+/*.icono ul li a:hover{
+    background-color: rgb(175, 22, 43);
+    border: solid 3px rgb(175, 22, 43);
+    
+}*/
+.cuerpo {
+  background-image: url(imagenes/17886950_651025228432106_1994448175_o.jpg);
+  background-size: cover;
+  background-position: 50px 100px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  background-color: #861b2a;
+  color: #c5c2c2;
+}
+
+.contenedorFooter {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-right: 130px;
+}
+
+.contenedor img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contenedor img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.columna1 {
+  color: #c5c2c2;
+  max-width: 300px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.columna1 h2 {
+  color: #c5c2c2;
+  max-width: 500px;
+  font-size: 20px;
+  text-align: unset;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.columna2 {
+  color: #c5c2c2;
+  max-width: 600px;
+  font-size: 15px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.columna2 h2 {
+  color: #c5c2c2;
+  max-width: 400px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.columna3 {
+  color: #c5c2c2;
+  max-width: 400px;
+  font-size: 15px;
+  margin-left: 150px;
+}
+
+.columna3 h2 {
+  color: #c5c2c2;
+  max-width: 400px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.row {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row img {
+  width: 25px;
+  height: 25px;
+}
+
+.row label {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #c7c7c7;
+}
+
+.copyright {
+  color: #c7c7c7;
+  background-color: #af162b;
+  padding-left: 20px;
+  max-width: 1500px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.subtitulo {
+  color: #e6e1e1;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#galeria {
+  border: #e6e1e1 3px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin: 20px;
+  -webkit-transform: translate 2, 1;
+          transform: translate 2, 1;
+}
+
+#galeria img {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#galeria img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.layout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -ms-grid-columns: 250px 400px;
+      grid-template-columns: 250px 400px;
+  row-gap: 10px;
+  grid-gap: 10px;
+  width: 1200px;
+  margin: 20px 20px 20px 20px;
+}
+
+.layout img {
+  background-color: white;
+  border: solid 3px #af162b;
+  width: auto;
+  justify-items: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.layout img:hover {
+  width: 250px;
+  height: 200px;
+  -webkit-transition: height 2s width 2s;
+  transition: height 2s width 2s;
+}
+
+.sauvignonBlanc {
+  background-color: white;
+  border: solid 3px #af162b;
+  width: 800px;
+  justify-items: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.sauvignonBlanc table {
+  border-collapse: collapse;
+  border: solid 1px #af162b;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 600px;
+}
+
+.redMelosa {
+  justify-items: end;
+  background-color: white;
+  border: solid 3px #af162b;
+  padding: 10px;
+  width: 800px;
+  margin-left: 50px;
+}
+
+.redMelosa table {
+  border-collapse: collapse;
+  border: solid 1px #af162b;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 600px;
+}
+
+.almandinoMalbec {
+  background-color: white;
+  border: solid 3px #af162b;
+  width: 800px;
+  justify-items: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.almandinoMalbec table {
+  border-collapse: collapse;
+  border: solid 1px #af162b;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 600px;
+}
+
+.torrontes {
+  background-color: white;
+  border: solid 3px #af162b;
+  width: 800px;
+  justify-items: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.torrontes table {
+  border-collapse: collapse;
+  border: solid 1px #af162b;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 600px;
+}
+
+.malbecReserva {
+  background-color: white;
+  border: solid 3px #af162b;
+  width: 800px;
+  justify-items: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.malbecReserva table {
+  border-collapse: collapse;
+  border: solid 1px #af162b;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 600px;
+}
+
+.reservaTannat {
+  background-color: white;
+  border: solid 3px #af162b;
+  width: 800px;
+  justify-items: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.reservaTannat table {
+  border-collapse: collapse;
+  border: solid 1px #af162b;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 600px;
+}
+
+table, th, td {
+  border: solid 1px #af162b;
+  text-align: center;
+}
+
+.tituloVino {
+  color: #af162b;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form-group {
+  color: #e6e1e1;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 300px;
+  width: 30%;
+}
+
+#estadocivil {
+  width: 200px;
+}
+
+.caja {
+  height: 800px;
+  width: 900px;
+  border: solid 2px white;
+}
+
+.btn-promo1 {
+  background-color: #af162b;
+  border: solid 1px white;
+}
+
+.btn-Promo2 {
+  background-color: gray;
+  border: solid 1px white;
+}
+
+.btn-Promo3 {
+  background-color: green;
+  border: solid 1px white;
+}
+/*# sourceMappingURL=styles.css.map */
